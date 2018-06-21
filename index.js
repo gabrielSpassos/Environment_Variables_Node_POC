@@ -1,7 +1,6 @@
 require('dotenv').load();
 
-
-const app = require('http').createServer((req, res) => res.send('Ahoy!'));
+const app = require('http').createServer((req, res) => res.send('Hello!'));
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
